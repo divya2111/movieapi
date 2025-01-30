@@ -19,7 +19,7 @@ public class EmailService {
 	public void sendSimpleMessage(MailBody mailbody) {
 		SimpleMailMessage message = new SimpleMailMessage();
 		message.setTo(mailbody.to());
-		message.setFrom("divyaparuchuri2111@gamil.com");
+		message.setFrom("yourmail@gamil.com");
 		message.setSubject(mailbody.subject());
 		message.setText(mailbody.text());
 		
